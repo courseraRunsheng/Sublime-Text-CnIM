@@ -1,21 +1,24 @@
 Sublime-Text-CnIM
 =================
 
-以下内容运行在Ubuntu 14.04中，其他Linux发行版理论上大同小异，请根据你的系统环境做相应的更改。
+在ubuntu 14.04 64位中实测可用。
+fcitx输入法可以选择搜狗或者小企鹅。
 
 ###下载
 ```Shell
-    git clone https://github.com/Garwih/Sublime-Text-CnIM.git
+    git clone https://github.com/courseraRunsheng/Sublime-Text-CnIM.git
 ```
 ###使用Sublime Text 3官方.deb安装包安装的：
-复制文件到对应目录，然后通过`subl`启动即可
+- 默认安装目录: /opt/sublime_text
+- 将编译好的sub-fcitx-cn.so文件复制到安装目录之下，然后使用 subl命令挂载该文件启动sublime即可
+- 简单命令如下
 ```Shell
     cd Sublime-Text-CnIM
     sudo cp -r usr /
     sudo cp -r opt /
 ```
 ----------
-###其他方式安装的：
+###其他方式安装的，需要自行编译文件：
 
 安装编译环境
 ```Shell
